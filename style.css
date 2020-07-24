@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  color: white;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* SEARCH */
+
+.search {
+  min-height: 150px;
+  padding-bottom: 100px;
+}
+
+#search {
+  width: 80%;
+  height: 30px;
+  max-width: 500px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+#search-btn {
+  height: 30px;
+  width: 20%;
+  max-width: 100px;
+  min-width: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+/* LOCATION */
+
+.location {
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 400px;
+  max-height: 150px;
+}
+
+#location {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.iconid {
+  height: 70px;
+}
+
+
+/* TEMPERATURE */
+.temperature {
+  height: 100px;
+  flex-direction: column;
+}
+
+#temp {
+  font-weight: 400;
+  font-size: 50px;
+  padding-bottom: 25px;
+}

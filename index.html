@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>openweathermap app</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class='container search'>
+      <input type='text' id='search' placeholder='Enter a City'>
+      <input type='submit' id="search-btn" value="Search">
+    </div>
+
+    <div class='container location'>
+      <h1 id="location"></h1>
+      <p id='icon'></p>
+    </div>
+
+    <div class='container temperature'>
+      <h1 id='temp'></h1>
+      <div id='desc'></div>
+    </div>
+    
+    
+    <script src="app.js" async defer></script>
+  </body>
+</html>
